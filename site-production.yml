@@ -1,0 +1,13 @@
+site:
+  title: Product Documentation
+  url: https://gilesgas.net:5455/
+  start_page: cloudbees-common::index
+content:
+  sources:
+  - url: git@github.com:cloudbees/docsite-cloudbees-common.git
+    branches: development
+  - url: git@github.com:cloudbees/docsite-cloudbees-core-installation-guide.git
+    branches: 2.107.2
+ui:
+  bundle:
+    url: ui-bundle.zip

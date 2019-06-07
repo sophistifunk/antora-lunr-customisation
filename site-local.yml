@@ -1,0 +1,16 @@
+site:
+  title: Product Documentation
+  url: http://localhost:10000/
+  start_page: cloudbees-common::index
+content:
+  sources:
+  - url: ../docsite-cloudbees-common
+    branches: development
+  - url: ../docsite-cloudbees-core-installation-guide
+    branches: [development, 2.107.2]
+#asciidoc:
+#  extensions:
+#  - ./lib/show-partial-uri-or-path
+ui:
+  bundle:
+    url: ui-bundle.zip
