@@ -26,7 +26,9 @@
     "@antora/site-mapper": "2.0.0",
     "@antora/site-publisher": "2.0.0",
     "@antora/ui-loader": "2.0.0",
-    "antora-lunr": "^0.1.0"
+    "cheerio": "^1.0.0-rc.3",
+    "html-entities": "^1.2.1",
+    "lunr": "^2.3.6"
   },
   "devDependencies": {
     "fs-extra": "~7.0"

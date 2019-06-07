@@ -1,1 +1,1 @@
-DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora site-local.yml --generator ./generator/
+DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora site-local.yml --generator ./generator/ --stacktrace
