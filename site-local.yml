@@ -13,4 +13,4 @@ content:
 #  - ./lib/show-partial-uri-or-path
 ui:
   bundle:
-    url: ui-bundle.zip
+    url: ui-bundle/ui-bundle.zip
