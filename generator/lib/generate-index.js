@@ -1,5 +1,7 @@
 'use strict'
 
+// This file originally poached from https://github.com/Mogztter/antora-lunr (MIT) and modified locally
+
 const lunr = require('lunr')
 const cheerio = require('cheerio')
 const Entities = require('html-entities').AllHtmlEntities
@@ -117,7 +119,7 @@ function normaliseJargonPlugin(builder) {
     // Add the pipeline function to both the indexing pipeline and the
     // searching pipeline
     builder.pipeline.before(lunr.stemmer, pipelineFunction)
-    // TODO: builder.searchPipeline.before(lunr.stemmer, pipelineFunction)
+    builder.searchPipeline.before(lunr.stemmer, pipelineFunction)
 }
 
 module.exports = generateIndex

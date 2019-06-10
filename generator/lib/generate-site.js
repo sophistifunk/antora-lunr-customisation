@@ -26,7 +26,7 @@ async function generateSite(args, env) {
     pages.forEach((page) => composePage(page, contentCatalog, navigationCatalog))
     const siteFiles = mapSite(playbook, pages).concat(produceRedirects(playbook, contentCatalog))
 
-    // Antora-lunr integration
+    // Antora-lunr integration, using local code with our plugin added
     const index = generateIndex(playbook, pages)
     siteFiles.push(generateIndex.createIndexFile(index))
 

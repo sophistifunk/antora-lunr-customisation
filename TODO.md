@@ -8,3 +8,5 @@ To get this from junk PoC to something solid enough to replace existing workflow
 * [ ] Make changes to `site-development.yml` and `side-production.yml` to match changes made to `site-local.yml`
 * [ ] Figure out a way to serve locally-generated content so that urls work etc
 * [ ] Switch custom jargon plugin out from hard-coded example to something more meaningful and data-driven, get some more examples from tech writing team
+* [ ] PrettierJS
+* [ ] TSC where appropriate
