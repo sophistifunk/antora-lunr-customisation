@@ -11,3 +11,4 @@ To get this from junk PoC to something solid enough to replace existing workflow
 * [ ] Switch custom jargon plugin out from hard-coded example to something more meaningful and data-driven, get some more examples from tech writing team
 * [ ] PrettierJS
 * [ ] TSC where appropriate
+* [ ] Figure out how to have lunrjs auto-suggest (at least) jargon words when you've typed a handful of characters in, which would be nice to have in addition to the custom stemming dictionary
